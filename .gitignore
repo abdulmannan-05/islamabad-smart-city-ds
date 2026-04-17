@@ -1,0 +1,38 @@
+# --- Visual Studio Specific ---
+.vs/
+*.user
+*.userosscache
+*.sln.docarchives
+*.suo
+*.pdb
+
+# --- Build Outputs ---
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# --- Intermediate/Temporary Files ---
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ipch
+*.ilk
+*.cache
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Optional: Data files ---
+# Only uncomment the line below if you want users to provide their own CSVs 
+# instead of using your SmartCity_dataset.
+# *.csv
